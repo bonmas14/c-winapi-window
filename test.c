@@ -1,3 +1,5 @@
+// Copyright 2024 bonmas14
+
 #ifndef UNICODE
 #define UNICODE
 #endif
