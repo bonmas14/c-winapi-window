@@ -15,6 +15,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
     WNDCLASSW wc = { 0 };
 
+    wc.style = CS_CLASSDC | CS_VREDRAW | CS_HREDRAW;
     wc.lpfnWndProc = wWindowProc;
     wc.hInstance = hInstance;
     wc.lpszClassName = CLASS_NAME;
